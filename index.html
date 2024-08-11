@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Éxtasis</title>
+    <script
+      src="https://kit.fontawesome.com/b47e642ac6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  </head>
+  <body>
+    <header class="encabezado">
+      <div class="contenedor-navegacion">
+        <div class="contenido-navegacion contenedor">
+          <div class="logo">
+            <h2><span class="rojo">Éx</span><span class="oro">tasis</span></h2>
+          </div>
+          <nav class="navegacion ocultar">
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Sobre nosotros</a>
+            <a href="#menu">menú</a>
+            <a href="#chef">Chef</a>
+            <a href="#contacto">Contacto</a>
+          </nav>
+          <div class="hamburguesa"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+
+      <div class="contenido-header" id="inicio">
+        <div class="contenedor-encabezado">
+          <div class="texto-encabezado">
+            <h2>¡Bienvenido!</h2>
+            <a href="#menu" class="btn bordes">Nuestro menú</a>
+          </div>
+          <video autoplay loop muted>
+            <source src="/Recursos/8626672-uhd_3840_2160_25fps.mp4" />
+          </video>
+        </div>
+      </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor" id="nosotros">
+      <div class="texto-nosotros" data-aos="fade-up">
+        <p class="bienvenida">Bienvenido a</p>
+        <h1>Éxtasis Gastro Bar</h1>
+        <p>
+          En Éxtasis Gastro Bar, creemos que la comida es más que un simple
+          sustento: es una forma de arte, una expresión de creatividad y una
+          experiencia que debe ser saboreada con todos los sentidos. Nuestro
+          menú es una sinfonía de sabores, texturas y aromas, cuidadosamente
+          elaborada por nuestro equipo de chefs de renombre. Utilizamos solo los
+          ingredientes más frescos y de la más alta calidad para crear platos
+          que deleitarán tu paladar y despertarán tu alma. Desde aperitivos
+          tentadores hasta platos principales decadentes y postres celestiales,
+          cada bocado en Éxtasis está diseñado para transportarte a un reino de
+          placer culinario. Nuestro ambiente elegante y nuestro servicio
+          impecable complementan a la perfección la experiencia gastronómica,
+          asegurando que cada visita sea verdaderamente inolvidable.
+        </p>
+        <a href="#contacto" class="btn btn-rojo">Contactar</a>
+      </div>
+      <div class="imagenes-nosotros">
+        <div class="imagen1">
+          <img
+            data-aos="fade-left"
+            src="Recursos/healthy-7213383_1280.jpg"
+            alt="Huevos a la cazuela"
+          />
+        </div>
+        <div class="imagenes2">
+          <img
+            data-aos="fade-right"
+            class="imagenCuadrada"
+            src="Recursos/man-2557408_1280.jpg"
+            alt="Café para dos"
+          />
+          <img
+            data-aos="fade-up"
+            class="imagenAlargada"
+            src="Recursos/vegan-4809593_1280.jpg"
+            alt="Plato vegano"
+          />
+        </div>
+      </div>
+    </div>
+
+    <section class="menu contenedor" id="menu">
+      <h2 class="texto-platos" data-aos="fade">Nuestros platos</h2>
+      <div class="botones-platos" data-aos="slide-right">
+        <button class="todos btn btn-gold">Todos</button>
+        <button class="aperitivos btn btn-gold">Aperitivos</button>
+        <button class="entrantes btn btn-gold">Entrantes</button>
+        <button class="platosPrincipales btn btn-gold">
+          Platos principales
+        </button>
+        <button class="postres btn btn-gold">Postres</button>
+      </div>
+      <div class="platos" data-aos="fade-up">
+        <div class="plato" data-plato="aperitivos">
+          <div class="plato-content">
+            <img
+              class="lazy"
+              data-src="Recursos/Ensalada.jpg"
+              alt="Ensalada de burrata con rúcula y tomates cherry"
+            />
+            <h2>Ensalada de burrata con rúcula y tomates cherry</h2>
+            <p>
+              Una refrescante y deliciosa ensalada que combina la cremosidad de
+              la burrata con el sabor picante de la rúcula y la dulzura de los
+              tomates cherry. Esta ensalada es perfecta como entrante ligero o
+              como acompañamiento de un plato principal.
+            </p>
+            <div class="precio">
+              <p>20€</p>
+              <button><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="plato" data-plato="aperitivos">
+          <div class="plato-content">
+            <img
+              class="lazy"
+              data-src="Recursos/Croquetas jamon iberico.jpg"
+              alt="Croquetas de jamón ibérico"
+            />
+            <h2>Croquetas de jamón ibérico</h2>
+            <p>
+              Elaboradas artesanalmente con jamón ibérico de bellota, estas
+              delicias culinarias ofrecen una explosión de sabor en cada bocado.
+              Su cremoso interior se funde en la boca, mientras que su crujiente
+              exterior proporciona el contraste perfecto. Acompañadas de una
+              salsa de tomate casera o una mayonesa de trufa, nuestras croquetas
+              de jamón ibérico son un imprescindible en cualquier experiencia
+              gastronómica memorable.
+            </p>
+            <div class="precio">
+              <p>15€</p>
+              <button><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="plato" data-plato="aperitivos">
+          <div class="plato-content">
+            <img
+              class="lazy"
+              data-src="Recursos/Bruschetta.jpg"
+              alt="Bruschetta de champiñones y queso de cabra"
+            />
+            <h2>Bruschetta de champiñones y queso de cabra</h2>
+            <p>
+              Crujientes rebanadas de pan tostado sirven de base para una
+              irresistible combinación de champiñones salteados con ajo y
+              hierbas aromáticas. El cremoso queso de cabra se deshace sobre los
+              champiñones, creando un equilibrio perfecto entre riqueza y
+              acidez. Una llovizna de aceite de trufa realza los sabores
+              terrosos de los champiñones, elevando este clásico aperitivo a
+              nuevas cotas de sofisticación.
+            </p>
+            <div class="precio">
+              <p>14€</p>
+              <button><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="plato" data-plato="entrantes">
+          <div class="plato-content">
+            <img
+              class="lazy"
+              data-src="Recursos/Sopa de cebolla gratinada.jpg"
+              alt="Sopa de cebolla gratinada"
+            />
+            <h2>Sopa de cebolla gratinada</h2>
+            <p>
+              Cebollas caramelizadas lentamente en mantequilla hasta alcanzar un
+              dulzor intenso forman la base de esta reconfortante sopa. El rico
+              caldo de ternera se vierte sobre las cebollas, creando un caldo
+              sabroso y aromático. Gruyère y parmesano, dos quesos suizos
+              decadentes, se gratinan sobre la sopa, formando una costra dorada
+              y burbujeante. Cada cucharada es una delicia cremosa y
+              reconfortante, perfecta para calentar el alma en las noches frías.
+            </p>
+            <div class="precio">
+              <p>18€</p>
+              <button><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="plato" data-plato="entrantes">
+          <div class="plato-content">
+            <img
+              class="lazy"
+              data-src="Recursos/Carpaccio de ternera con virutas de parmesano.jpg"
+              alt="Carpaccio de ternera con virutas de parmesano"
+            />
+            <h2>Carpaccio de ternera con virutas de parmesano</h2>
+            <p>
+              Finas lonchas de ternera cruda, cortadas con precisión, se
+              disponen sobre un plato frío. Se sazonan con sal marina y pimienta
+              negra recién molida, lo que realza el sabor natural de la carne.
+              Virutas de parmesano añejo se esparcen sobre el carpaccio,
+              añadiendo un toque de umami y textura crujiente. Un chorrito de
+              aceite de oliva virgen extra y unas gotas de zumo de limón
+              completan este refrescante y sofisticado aperitivo.
+            </p>
+            <div class="precio">
+              <p>25€</p>
+              <button><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="plato" data-plato="entrantes">
+          <div class="plato-content">
+            <img
+              class="lazy"
+              data-src="Recursos/Mejillones al vapor con vino blanco y ajo.jpg"
+              alt="Mejillones al vapor con vino blanco y ajo"
+            />
+            <h2>Mejillones al vapor con vino blanco y ajo</h2>
+            <p>
+              Mejillones frescos se cuecen al vapor en un caldo aromático hecho
+              con vino blanco, ajo, chalotas y hierbas frescas. El vapor abre
+              las conchas de los mejillones, revelando su carne tierna y jugosa.
+              El caldo resultante es una delicia sabrosa, perfecta para mojar
+              pan o patatas fritas. Estos mejillones al vapor son un aperitivo o
+              plato principal ligero y refrescante, ideal para compartir o
+              disfrutar solo.
+            </p>
+            <div class="precio">
+              <p>30€</p>
+              <button><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="plato" data-plato="platosPrincipales">
+          <div class="plato-content">
+            <img
+              class="lazy"
+              data-src="Recursos/Solomillo_de_ternera.jpg"
+              alt="Solomillo de ternera a la parrilla con puré de patatas y espárragos"
+            />
+            <h2>
+              Solomillo de ternera a la parrilla con puré de patatas y
+              espárragos
+            </h2>
+            <p>
+              Un solomillo de ternera de primera calidad se asa a la parrilla a
+              la perfección, logrando un exterior crujiente y un interior tierno
+              y jugoso. Se sirve sobre un cremoso puré de patatas, hecho con
+              patatas Yukon Gold y mantequilla, que añade un toque de riqueza y
+              comodidad al plato. Los espárragos verdes asados, sazonados con
+              sal marina y pimienta negra, aportan un toque de frescura y un
+              contraste crujiente. Este plato es un equilibrio perfecto entre
+              sabores y texturas, y es una opción ideal para una cena especial o
+              una celebración.
+            </p>
+            <div class="precio">
+              <p>35€</p>
+              <button><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="plato" data-plato="platosPrincipales">
+          <div class="plato-content">
+            <img
+              class="lazy"
+              data-src="Recursos/Risotto de setas y trufa.jpg"
+              alt="Risotto de setas y trufa"
+            />
+            <h2>Risotto de setas y trufa</h2>
+            <p>
+              Arborio, un arroz de grano corto italiano, se cocina lentamente en
+              un caldo rico y cremoso, absorbiendo todos los sabores de las
+              setas salteadas y la trufa rallada. El resultado es un risotto
+              cremoso y decadente, con cada bocado infundido con la esencia de
+              la trufa. Este plato es una delicia para los amantes de la trufa y
+              un plato principal reconfortante perfecto para una ocasión
+              especial.
+            </p>
+            <div class="precio">
+              <p>20€</p>
+              <button><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="plato" data-plato="platosPrincipales">
+          <div class="plato-content">
+            <img
+              class="lazy"
+              data-src="Recursos/Lubina asada con verduras asadas.jpg"
+              alt="Lubina asada con verduras asadas"
+            />
+            <h2>Lubina asada con verduras asadas</h2>
+            <p>
+              Una lubina entera, escamada y destripada, se asa hasta que su
+              carne se vuelve tierna y escamosa. Se acompaña de una vibrante
+              variedad de verduras asadas, como zanahorias, espárragos,
+              pimientos y calabacines, que se caramelizan en el horno y
+              adquieren un dulzor natural. El plato se rocía con un chorrito de
+              aceite de oliva virgen extra y se sazona con sal marina y pimienta
+              negra, realzando los sabores naturales de los ingredientes. Esta
+              lubina asada con verduras asadas es una opción perfecta para los
+              amantes de los mariscos y para aquellos que buscan una comida
+              nutritiva y deliciosa.
+            </p>
+            <div class="precio">
+              <p>40€</p>
+              <button><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="plato" data-plato="postres">
+          <div class="plato-content">
+            <img
+              class="lazy"
+              data-src="Recursos/Tarta de chocolate con helado de vainilla.jpg"
+              alt="Tarta de chocolate con helado de vainilla"
+            />
+            <h2>Tarta de chocolate con helado de vainilla</h2>
+            <p>
+              Deleita tus papilas gustativas con nuestra exquisita Tarta de
+              Chocolate, una obra maestra culinaria hecha con capas de intenso y
+              rico chocolate. Cada bocado derrite en tu boca, creando una
+              sinfonía de placer. Acompáñala con una bola de helado de vainilla
+              cremoso, suave como la seda, que complementa perfectamente la
+              riqueza del chocolate. Esta combinación celestial te dejará con
+              ganas de más y te hará volver por más.
+            </p>
+            <div class="precio">
+              <p>12€</p>
+              <button><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="plato" data-plato="postres">
+          <div class="plato-content">
+            <img
+              class="lazy"
+              data-src="Recursos/Tiramisu.jpg"
+              alt="Tiramisú clásico"
+            />
+            <h2>Tiramisú clásico</h2>
+            <p>
+              Sumérgete en el paraíso del café con nuestro Tiramisú Clásico, una
+              delicia italiana que deleitará tus sentidos. Este postre en capas
+              es una obra maestra, con suaves y esponjosos bizcochos empapados
+              en un intenso café expreso. Entre cada capa, una cremosa y
+              aterciopelada mezcla de mascarpone, huevos y azúcar crea una
+              textura irresistible. Espolvoreado con cacao en polvo, cada bocado
+              evoca el sabor de Italia, llevándote a un viaje culinario
+              inolvidable. Ya sea como final perfecto para una comida o como un
+              capricho indulgente, nuestro Tiramisú Clásico te dejará anhelando
+              más.
+            </p>
+            <div class="precio">
+              <p>10€</p>
+              <button><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="plato" data-plato="postres">
+          <div class="plato-content">
+            <img
+              class="lazy"
+              data-src="Recursos/Creme_brulee_con_frutos_rojos.jpg"
+              alt="Crème brûlée con frutos rojos"
+            />
+            <h2>Crème brûlée con frutos rojos</h2>
+            <p>
+              Rodéate de elegancia con nuestra Crème Brûlée con Frutos Rojos, un
+              postre francés clásico reinventado con un toque de frescura. Esta
+              delicia cremosa y aterciopelada cuenta con una base de natillas
+              ricas y aromáticas, rematada con una capa crujiente de azúcar
+              caramelizada. El contraste entre la cremosidad de la natilla y el
+              crujido del caramelo crea una experiencia sensorial inolvidable.
+              Adornada con una compota vibrante de frutos rojos, este postre es
+              un festín tanto para los ojos como para el paladar. Cada bocado te
+              transportará a un reino de sabores decadentes, dejándote con un
+              anhelo de más.
+            </p>
+            <div class="precio">
+              <p>15€</p>
+              <button><i class="fa-solid fa-basket-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="separador">
+      <div class="contenido-separador contenedor">
+        <h2>Sabores que cuentan historias, bocados que crean recuerdos</h2>
+        <p>
+          Sumérgete en un mundo de sabores que te transportarán a tierras
+          lejanas y crearán recuerdos duraderos
+        </p>
+        <a href="#" class="btn btn-gold">Ordenar Ahora</a>
+      </div>
+    </div>
+
+    <section class="chef contenedor" id="chef">
+      <h2>Chef ejecutivo</h2>
+      <div class="contenido-chef">
+        <div class="texto-chef">
+          <h3>
+            La alquimia culinaria del chef: Donde la pasión se convierte en
+            platos extraordinarios
+          </h3>
+          <p>
+            En el corazón de cada plato que creamos, hay una pizca de pasión. Es
+            la pasión por nuestro oficio, por los ingredientes que utilizamos y
+            por el deseo de crear experiencias culinarias inolvidables para
+            nuestros huéspedes. Para nosotros, la comida es más que simple
+            sustento; es una forma de arte, una forma de expresión y una forma
+            de conectar con los demás. Nos esforzamos por utilizar los mejores
+            ingredientes, obtenidos localmente siempre que sea posible, y
+            tratamos cada plato con el máximo cuidado y atención. Cada miembro
+            de nuestro equipo está dedicado a brindar un servicio excepcional,
+            asegurando que cada huésped se sienta bienvenido, valorado y
+            atendido. Queremos que nuestros huéspedes no solo disfruten de una
+            comida deliciosa, sino que también se lleven recuerdos que durarán
+            toda la vida.
+          </p>
+          <a href="#" class="btn btn-gold">Biografía</a>
+        </div>
+        <div class="imagen-chef">
+          <img
+            class="lazy"
+            data-src="Recursos/Chef.webp"
+            alt="Imagen de nuestro chef"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div class="formulario-contacto contenedor" id="contacto">
+      <div class="informacion-contacto">
+        <h3>Contactanos</h3>
+        <p><i class="fa-solid fa-location-dot"></i> 45. Sevilla España 3498</p>
+        <p><i class="fa-solid fa-envelope"></i> extasis@gastro.it</p>
+        <p><i class="fa-solid fa-phone"></i> +313456723</p>
+        <div class="redes-sociales">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-x-twitter"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+        </div>
+      </div>
+
+      <form class="formulario" id="form">
+        <div class="input-formulario">
+          <label for="nombre">Nombre</label>
+          <input type="text" placeholder="Pedro" id="nombre" name="nombre" required/>
+        </div>
+        <div class="input-formulario">
+          <label for="apellidos">Apellidos</label>
+          <input
+            type="text"
+            placeholder="Infante González"
+            id="apellidos"
+            name="apellidos"
+            required
+          />
+        </div>
+        <div class="input-formulario">
+          <label for="correo">Correo</label>
+          <input
+            type="email"
+            placeholder="ejemplo@ejemplo.com"
+            id="correo"
+            name="correo"
+            required
+          />
+        </div>
+        <div class="input-formulario">
+          <label for="telefono">Teléfono</label>
+          <input
+            type="tel"
+            placeholder="+31 456324578"
+            id="telefono"
+            name="telefono"
+            required
+          />
+        </div>
+        <div class="input-formulario">
+          <label for="mensaje">Mensaje</label>
+          <input type="text" class="mensaje" name="mensaje" id="mensaje" required/>
+        </div>
+        <div class="btn-formulario">
+          <input
+            type="submit"
+            id="button"
+            class="btn btn-gold"
+            value="Enviar"
+          />
+        </div>
+      </form>
+      <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+      ></script>
+
+      <script type="text/javascript">
+        emailjs.init('zXI1tejWwsDua0TMm');
+      </script>
+    </div>
+    <div class="pie-pagina">
+      <div class="contenedor-piePagina contenedor">
+        <div class="info">
+          <h3>Dirección</h3>
+          <p>45. Sevilla España 3498</p>
+        </div>
+        <div class="info">
+          <h3>Dias especiales</h3>
+          <p>Sábados y jueves 7am - 11pm</p>
+          <p>+313456723</p>
+        </div>
+        <div class="info">
+          <h3>Horario</h3>
+          <p>Lunes - Domingo 7am - 11pm</p>
+          <div class="redes-sociales redes-pie">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-x-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+        </div>
+        <div class="info">
+          <h3>Noticias</h3>
+          <p>Suscribete para recibir mas noticias</p>
+          <input type="email" placeholder="Tu correo" />
+          <input type="submit" class="btn btn-gold" value="Suscribirse" />
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>
+        Todos los derechos reservados &copy; 2024 Éxtasis Gastro Bar,
+        desarrollado por Rafael Travado
+      </p>
+    </footer>
+    <script src="js/app.js"></script>
+    <script>
+      const btn = document.getElementById('button');
+
+      document
+        .getElementById('form')
+        .addEventListener('submit', function (event) {
+          event.preventDefault();
+
+          btn.value = 'Enviando...';
+
+          const serviceID = 'default_service';
+          const templateID = 'template_e30fd48';
+
+          emailjs.sendForm(serviceID, templateID, this).then(
+            () => {
+              btn.value = 'Enviar';
+              alert('Mensaje enviado con éxito');
+            },
+            (err) => {
+              btn.value = 'Enviar';
+              alert(JSON.stringify(err));
+            }
+          );
+        });
+    </script>
+  </body>
+</html>
