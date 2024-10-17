@@ -1,5 +1,13 @@
 # 🍽️ Éxtasis Gastrobar
 
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-yellowgreen)
+![Issues](https://img.shields.io/github/issues/Rafael-TF/Restaurante)
+![Forks](https://img.shields.io/github/forks/Rafael-TF/Restaurante)
+![Stars](https://img.shields.io/github/stars/Rafael-TF/Restaurante)
+
 ¡Bienvenido a **Éxtasis Gastrobar**! Un **proyecto innovador** que combina la esencia de la alta cocina con un ambiente moderno y vibrante. Este sitio web no solo es una ventana a nuestro delicioso menú, sino que también captura la experiencia única que ofrecemos a cada uno de nuestros visitantes. Aquí, la gastronomía y la tecnología se unen para ofrecerte una experiencia inmersiva que refleja la filosofía culinaria de nuestro restaurante.
 
 <div align="center">
